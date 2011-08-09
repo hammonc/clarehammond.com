@@ -1,0 +1,299 @@
+/* clare.css */
+
+* {
+    font-family: "Gill Sans";
+    font-weight: lighter;
+}
+
+body {
+    background-color: #030f1e;
+    color: #ffffff;
+    margin: 0;
+}
+
+#container {
+    width: 1200px;
+}
+
+#header {
+    height: 104px;
+    text-align: right;
+    background-image: url(thistle.jpg);
+}
+
+#logo {
+    padding: 14px;
+}
+
+#logo>* {
+    margin: 0;
+}
+
+#logo>h1 {
+    font-size: 180%;
+}
+
+#logo>h2 {
+    font-size: 120%;
+    color: #a0bbe7;
+}    
+
+#main {
+    
+}
+
+#sidebar {
+    float: left;
+    width: 180px;
+}
+
+#sidebar ul {
+    text-align: right;
+    padding-right: 10px;
+}
+
+#sidebar li {
+    margin-left: -20px;
+}
+
+#sidebar a {
+    color: #ffffff;
+}
+
+#main-image {
+    float: left;
+    width: 300px;
+}
+
+.main-image {
+    margin-top: -104px;
+    width: 300px;
+}
+
+#no-image-content {
+    float: left;
+    background-image: url(line.jpg);
+    background-repeat: repeat-y;    
+    padding: 20px;
+}
+
+.scroll-pane-arrows {
+    float: left;
+    height: 570px;
+    width: 720px;
+    overflow: auto;
+}
+
+#scroll-pane-content {
+    padding: 20px;
+}
+
+#footer {
+    clear: both;
+    height: 120px;
+    background-image: url(thistle2.jpg);
+}
+
+#credits {
+    text-align: right;
+    font-size: 80%;
+    padding: 14px;
+}
+
+#credits>* {
+    margin: 0;
+}
+
+
+a {
+    color: #a0bbe7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+.page-heading {
+    color: #a0bbe7;
+}
+
+#index-main {
+    width: 100%;
+}
+
+.image-index {
+    width: 100%;
+}
+
+#news {
+    position: absolute;
+    top: 140px;
+    left: 30px;
+    width: 420px;
+}
+
+h3 {
+    font-size: 160%;
+}
+
+.more {
+    font-size: 80%;
+    color: #a0bbe7;
+}
+
+.less {
+    font-size: 80%;
+    color: #a0bbe7;
+}
+
+em {
+    font-style: italic;
+}
+
+#content>a {
+    color: #a0bbe7;
+}
+
+.listing {
+    margin-top: 20px;
+}
+
+.listing-heading {
+    font-size: 110%;
+}
+
+.listing-trailer {
+    font-style: italic;
+}
+
+.listing-trailer>em {
+    font-style: normal;
+}
+
+.listing-details {
+    font-style: italic;
+    font-size: 90%;
+    margin: 5px;
+}
+
+.listing-details>p {
+    margin: 0px;
+}
+
+#recordings {
+    width: 520px;
+    float: left;
+    padding: 10px;
+}
+
+#cd-cover {
+    width: 380px;
+    float: left;
+}
+
+.cd-cover {
+    width: 300px;
+   border: #ffffff solid 1px;
+    padding: 3px;
+}
+
+
+#film-clips {
+    float: left;
+}
+
+.film-clip {
+    width: 450px;
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+
+.film-clip-still {
+    width: 280px;
+  border: #ffffff solid 1px;
+    padding: 1px;
+}
+
+#thumbnails {
+    width: 420px;
+    float: left;
+}
+
+td {
+    padding: 10px
+}
+
+.thumbnail {
+    width: 105px;
+    border: #ffffff solid 1px;
+    padding: 1px;
+}
+
+.highlighted {
+    border: #000000 solid 1px;
+}
+
+#gallery-main {
+    width: 320px;
+    float: left;
+    margin-top: -50px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.gallery-main {
+    width: 320px;
+    border: #ffffff solid 1px;
+    padding: 3px;
+}
+
+#credit {
+    font-size: 80%;
+    text-align: right;
+}
+
+.email-address {
+    font-size: 120%;
+    padding-left: 30px;
+}
+
+.quote-source {
+    font-weight: normal;
+    margin-bottom: 2px;
+}
+
+.quote {
+    padding-left: 40px;
+    margin-top: 2px;
+}
+
+.download-thumb {
+    width: 100px;
+    border: #ffffff solid 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.downloadable {
+    padding-left: 20px;
+}
+
+#repertoire-content {
+    overflow-y: scroll;
+    width: 100%;
+}
+
+#repertoire {
+    width: 660px;
+    margin: auto;
+}
+
+.programme {
+    text-align: center;
+}
