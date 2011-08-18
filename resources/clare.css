@@ -327,3 +327,9 @@ td {
 .programme {
     text-align: center;
 }
+
+#solo-rep td {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    vertical-align: top;
+}
