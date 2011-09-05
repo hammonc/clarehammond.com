@@ -333,3 +333,8 @@ td {
     padding-bottom: 1px;
     vertical-align: top;
 }
+
+#thesis p {
+    text-align: justify;
+    margin: 3px;
+}
