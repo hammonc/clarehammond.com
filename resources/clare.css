@@ -224,18 +224,11 @@ em {
 }
 
 #recording-links {
-    float: left;
-}
-
-.recording-link {
-    width: 320px;
-    float: left;
-    padding: 10px;
-    text-align: center;
+    padding-left: 30px;
 }
 
 .recording-link-img {
-    width: 280px;
+    width: 140px;
     border: #000000 solid 1px;
     padding: 1px;
 }
