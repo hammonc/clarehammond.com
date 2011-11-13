@@ -219,10 +219,26 @@ em {
 
 .cd-cover {
     width: 300px;
-   border: #000000 solid 1px;
+    border: #000000 solid 1px;
     padding: 3px;
 }
 
+#recording-links {
+    float: left;
+}
+
+.recording-link {
+    width: 320px;
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+
+.recording-link-img {
+    width: 280px;
+    border: #000000 solid 1px;
+    padding: 1px;
+}
 
 #film-clips {
     float: left;
@@ -337,4 +353,19 @@ td {
 #thesis p {
     text-align: justify;
     margin: 3px;
+}
+
+#in-tune {
+    width: 400px;
+    padding: 25px;
+}
+
+#piano-polyptych {
+    width: 600px;
+    padding: 25px;
+}
+
+#wigmore {
+    width: 500px;
+    padding: 25px;
 }
