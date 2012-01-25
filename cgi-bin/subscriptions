@@ -1,12 +1,12 @@
 #!/usr/bin/python
 
 import cgi
-from smtplib import SMTP
+from smtplib import SMTP_SSL
 import datetime
 import logging
 
-import cgitb
-cgitb.enable()
+#import cgitb
+#cgitb.enable()
 
 logging.basicConfig(filename="/srv/www/clarehammond.com/log/subscriptions.log", level=logging.DEBUG, format='%(asctime)s %(message)s')
 logging.info("New subscription event")
@@ -58,11 +58,14 @@ date = datetime.datetime.now().strftime( "%d/%m/%Y %H:%M" )
 
 msg = "From: %s\nTo: %s\nSubject: %s\nDate: %s\n\n%s" % (address, address, subject, date, message_text)
 
-smtp = SMTP()
-smtp.connect(host, port)
-smtp.login(user, password)
-smtp.sendmail(address, address, msg)
-smtp.quit()
+try:
+    smtp = SMTP_SSL()
+    smtp.connect(host, port)
+    smtp.login(user, password)
+    smtp.sendmail(address, address, msg)
+    smtp.quit()
+except Exception, ex:
+    logging.exception("Send failure!")
 
 print "Status: 303 See other"
 print "Location: http://www.clarehammond.com"
