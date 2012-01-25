@@ -1,0 +1,71 @@
+#!/usr/bin/python
+
+import cgi
+from smtplib import SMTP
+import datetime
+import logging
+
+import cgitb
+cgitb.enable()
+
+logging.basicConfig(filename="/srv/www/clarehammond.com/log/subscriptions.log", level=logging.DEBUG, format='%(asctime)s %(message)s')
+logging.info("New subscription event")
+
+host = "email-smtp.us-east-1.amazonaws.com"
+port = 465
+user = "AKIAJBKPFXVOZSMCCXHA"
+password = "AuWXSRCVbXCw+5DXcvCgWpAc63Ru9Y6JuX2sh6pXGtYL"
+
+form = cgi.FieldStorage()
+
+try:
+    name = form['name'].value
+except KeyError:
+    name = "<No name submitted>"
+logging.info("name: %s" % name)
+
+try:
+    email = form['email'].value
+except KeyError:
+    email = "<No e-mail address submitted>"
+logging.info("email: %s" % email)
+    
+try:
+    message = form['message'].value
+except KeyError:
+    message = "<No message submitted>"
+logging.info("message: %s" % message)
+
+if "subscribe" in form:
+    subject = "Clare's fanmail: SUBSCRIBE"
+elif "unsubscribe" in form:
+    subject = "Clare's fanmail: UNSUBSCRIBE"
+else:
+    subject = "Clare's fanmail"
+logging.info("subject: %s" % subject)
+
+message_text = """
+Name: %s 
+
+E-mail address: %s
+
+Message:
+%s
+""" % (name, email, message)
+
+address = "info@clarehammond.com"
+date = datetime.datetime.now().strftime( "%d/%m/%Y %H:%M" )
+
+msg = "From: %s\nTo: %s\nSubject: %s\nDate: %s\n\n%s" % (address, address, subject, date, message_text)
+
+smtp = SMTP()
+smtp.connect(host, port)
+smtp.login(user, password)
+smtp.sendmail(address, address, msg)
+smtp.quit()
+
+print "Status: 303 See other"
+print "Location: http://www.clarehammond.com"
+print
+
+logging.info("Subscription event processed")

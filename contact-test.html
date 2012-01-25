@@ -1,0 +1,24 @@
+---
+layout: with-image
+image: contact.jpg
+---
+<p>To join Clare's mailing list, please complete the form below and click on 'Subscribe'.</p>
+
+<form action="cgi-bin/subscriptions" method="post" id="mailing-list">
+	<table>
+		<tr>
+			<td>Full name *</td>
+			<td><input type="text" id="name" name="name" /></td>
+		</tr>
+		<tr>
+			<td>E-mail address *</td>
+			<td><input type="text" id="email" name="email" /></td>
+		</tr>
+		<tr>
+			<td>Message</td>
+			<td><textarea id="message" name="message" rows="8" cols="40"></textarea></td>
+		</tr>
+	</table>
+	<input type="submit" name="subscribe" value="Subscribe" />
+	<input type="submit" name="unsubscribe" value="Unsubscribe" />
+</form>
