@@ -54,4 +54,18 @@ $(document).ready(function() {
       });
 
     $(".popupwindow").popupwindow();
+
+    $("#subscribe").click(function() {
+	if (($("#email").val() == "") || ($("#name").val() == "")) {
+	    alert("Please enter both your name and an e-mail address.");
+	    return false;
+	}
+    });
+
+    $("#unsubscribe").click(function() {
+	if (($("#email").val() == "") || ($("#name").val() == "")) {
+	    alert("Please enter both your name and an e-mail address.");
+	    return false;
+	}
+    });
   });
