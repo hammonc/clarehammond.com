@@ -171,6 +171,10 @@ h3 {
     color: #d08a26;
 }
 
+strong {
+    font-weight: bolder;
+}
+
 em {
     font-style: italic;
 }
