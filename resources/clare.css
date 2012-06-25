@@ -390,3 +390,24 @@ td {
 #splashes-info {
     width: 540px;
 }
+
+.blog-post {
+    width: 720px;
+    text-align: justify;
+}
+
+.blog-img {
+    float: left;
+    width: 200px;
+    margin: 10px;
+}
+
+.blog-entry-img {
+    width: 100px;
+    border: #000000 solid 1px;
+    padding: 1px;
+}
+
+#back-to-blog {
+    text-align: right;
+}
