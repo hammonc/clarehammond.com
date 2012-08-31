@@ -154,7 +154,15 @@ ul {
     position: absolute;
     top: 140px;
     left: 30px;
-    width: 420px;
+    width: 480px;
+}
+
+#logos {
+    float: right;
+}
+
+#logos > img {
+    height: 25px;
 }
 
 h3 {
