@@ -11,6 +11,10 @@ body {
     margin: 0;
 }
 
+a img {
+    border: none;
+}
+
 #container {
     float: left;
     width: 1200px;
@@ -164,10 +168,6 @@ ul {
 
 #logos > img {
     height: 25px;
-}
-
-.store-logo {
-    margin: 0px;
 }
 
 h3 {
