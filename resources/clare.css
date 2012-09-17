@@ -360,6 +360,16 @@ td {
     vertical-align: top;
 }
 
+#academic-events td {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    vertical-align: top;
+}
+
+.event-date {
+    width: 90px;
+}
+
 #thesis p {
     text-align: justify;
     margin: 3px;
