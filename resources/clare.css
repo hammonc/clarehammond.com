@@ -162,11 +162,11 @@ ul {
     width: 480px;
 }
 
-#logos {
+.logos {
     float: right;
 }
 
-#logos > img {
+.logos > img {
     height: 25px;
 }
 
