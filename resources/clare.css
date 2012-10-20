@@ -286,6 +286,16 @@ td {
     border: #ffffff solid 1px;
 }
 
+.review-thumbnail {
+    width: 105px;
+    border: #ffffff solid 1px;
+    padding: 1px;
+}
+
+.highlighted-inverse {
+    border: #000000 solid 1px;
+}
+
 #gallery-main {
     width: 320px;
     float: left;

@@ -53,6 +53,14 @@ $(document).ready(function() {
 	$("#credit").html("Image copyright " + $(this).attr("credit"));
       });
 
+    $(".review-thumbnail").mouseenter(function() {
+	$(this).addClass("highlighted-inverse");
+      });
+
+    $(".review-thumbnail").mouseleave(function() {
+	$(this).removeClass("highlighted-inverse");
+      });
+
     $(".popupwindow").popupwindow();
 
     $("#subscribe").click(function() {
