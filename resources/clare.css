@@ -1,13 +1,10 @@
 /* clare.css */
 
-* {
-    font-family: "Gill Sans", Arial;
-    font-weight: lighter;
-}
-
 body {
+    font-family: Arial;
+    font-size: 13px;
     background-color: #ffffff;
-    color: #000000;
+    color: #666666;
     margin: 0;
 }
 
@@ -31,23 +28,27 @@ a img {
 }
 
 #logo {
+    font-family: "Gill Sans", Arial;
     padding: 14px;
 }
 
 #logo h1 {
-    font-size: 180%;
+    font-size: 220%;
+    font-weight: lighter;
     color: #ffffff;
     margin: 0;
 }
 
 #logo h2 {
-    font-size: 120%;
+    font-size: 140%;
+    font-weight: lighter;
     color: #d08a26;
     margin: 0;
 }   
 
 #logo p {
     font-size: 100%;
+    font-weight: lighter;
     color: #ffffff;
     margin: 0;
 }    
@@ -58,6 +59,9 @@ a img {
 }
 
 #sidebar {
+    font-family: "Gill Sans", Arial;
+    font-weight: lighter;
+    font-size: 120%;
     float: left;
     width: 180px;
 }
@@ -116,7 +120,7 @@ a img {
 
 #credits {
     text-align: right;
-    font-size: 80%;
+    font-size: 85%;
     color: #ffffff;
     padding: 14px;
 }
@@ -171,7 +175,15 @@ ul {
 }
 
 h3 {
-    font-size: 160%;
+    font-family: "Gill Sans", Arial;
+    font-weight: lighter;
+    font-size: 180%;
+}
+
+h4 {
+    font-family: "Gill Sans", Arial;
+    font-weight: lighter;
+    font-size: 110%;
 }
 
 h5 {
@@ -206,7 +218,6 @@ em {
 }
 
 .listing-heading {
-    font-size: 110%;
 }
 
 .listing-trailer {
@@ -357,7 +368,15 @@ td {
     padding-bottom: 20px;
 }
 
+#repertoire h2 {
+    font-family: "Gill Sans", Arial;
+    font-weight: lighter;
+    font-size: 180%;
+}
+
 #repertoire h4 {
+    font-family: "Gill Sans", Arial;
+    font-weight: lighter;
     margin-bottom: 4px;
 }
 
@@ -448,4 +467,8 @@ td {
 
 #back-to-blog {
     text-align: right;
+}
+
+table {
+    font-size: 13px;
 }
