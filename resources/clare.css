@@ -8,6 +8,10 @@ body {
     margin: 0;
 }
 
+table {
+    font-size: 13px;
+}
+
 a img {
     border: none;
 }
@@ -166,11 +170,15 @@ ul {
     width: 480px;
 }
 
-.logos {
+#news td {
+    padding: 5px;
+}
+
+#news .logos {
     float: right;
 }
 
-.logos > img {
+#news .logos img {
     height: 25px;
 }
 
@@ -467,8 +475,4 @@ td {
 
 #back-to-blog {
     text-align: right;
-}
-
-table {
-    font-size: 13px;
 }
