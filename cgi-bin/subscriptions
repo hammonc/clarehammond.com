@@ -37,11 +37,11 @@ except KeyError:
 logging.info("message: %s" % message)
 
 if "subscribe" in form:
-    subject = "Clare's fanmail: SUBSCRIBE"
+    subject = "Clare's newsletter: SUBSCRIBE"
 elif "unsubscribe" in form:
-    subject = "Clare's fanmail: UNSUBSCRIBE"
+    subject = "Clare's newsletter: UNSUBSCRIBE"
 else:
-    subject = "Clare's fanmail"
+    subject = "Clare's newsletter"
 logging.info("subject: %s" % subject)
 
 message_text = """
