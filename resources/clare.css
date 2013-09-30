@@ -147,6 +147,7 @@ ul {
 }
 
 .page-heading {
+    font-weight: lighter;
     margin-top: 0px;
     color: #d08a26;
 }
