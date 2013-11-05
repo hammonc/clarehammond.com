@@ -71,8 +71,12 @@ try:
 except Exception, ex:
     logging.exception("Send failure!")
 
-print "Status: 303 See other"
-print "Location: http://www.clarehammond.com"
-print
+if "register" not in form:
+    print "Status: 303 See other"
+    print "Location: http://www.clarehammond.com"
+    print
+else:
+    print "Status: 200 OK"
+    print
 
 logging.info("Subscription event processed")
