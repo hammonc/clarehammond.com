@@ -18,6 +18,8 @@ password = "AuWXSRCVbXCw+5DXcvCgWpAc63Ru9Y6JuX2sh6pXGtYL"
 
 form = cgi.FieldStorage()
 
+logging.info("form: %s" % form)
+
 try:
     name = form['name'].value
 except KeyError:
