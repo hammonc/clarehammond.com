@@ -46,7 +46,7 @@ elif "unsubscribe" in form:
     subject = "Clare's newsletter: UNSUBSCRIBE"
 elif "register" in form:
     subject = "Panufnik festival website registration"
-    location = "http://panufnik100festival.com/getinvolved.html"
+    location = "http://panufnik100festival.com/involved.html"
 else:
     subject = "Clare's newsletter"
 logging.info("subject: %s" % subject)
