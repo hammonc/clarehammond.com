@@ -76,4 +76,19 @@ $(document).ready(function() {
 	    return false;
 	}
     });
+
+    $("form#mailing-list").validate({
+        rules: {
+            name: {
+                required: false,
+            },
+            message: {
+                required: false,
+            },
+            email: {
+                required: true,
+                email: true
+            },
+        }
+    });
   });
