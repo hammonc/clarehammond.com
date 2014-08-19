@@ -46,7 +46,7 @@ a img {
 #logo h2 {
     font-size: 140%;
     font-weight: lighter;
-    color: #d08a26;
+    color: #0a9693;
     margin: 0;
 }   
 
@@ -134,7 +134,7 @@ a img {
 }
 
 a {
-    color: #d08a26;
+    color: #0a9693;
     text-decoration: none;
 }
 
@@ -150,7 +150,7 @@ ul {
     font-weight: lighter;
     margin-top: 0px;
     margin-bottom: 12px;
-    color: #d08a26;
+    color: #0a9693;
 }
 
 #index-main {
@@ -203,12 +203,12 @@ h5 {
 
 .more {
     font-size: 80%;
-    color: #d08a26;
+    color: #0a9693;
 }
 
 .less {
     font-size: 80%;
-    color: #d08a26;
+    color: #0a9693;
 }
 
 strong {
@@ -220,7 +220,7 @@ em {
 }
 
 #content a {
-    color: #d08a26;
+    color: #0a9693;
 }
 
 .listing {
