@@ -99,6 +99,7 @@ a img {
     background-image: url(line.jpg);
     background-repeat: repeat-y;    
     padding: 20px;
+    width: 700px;
 }
 
 .scroll-pane-arrows {
