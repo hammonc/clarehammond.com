@@ -99,6 +99,9 @@ a img {
     background-image: url(line.jpg);
     background-repeat: repeat-y;    
     padding: 20px;
+}
+
+#aidf {
     width: 700px;
 }
 
