@@ -80,15 +80,15 @@ $(document).ready(function() {
     $("form#mailing-list").validate({
         rules: {
             name: {
-                required: false,
+                required: false
             },
             message: {
-                required: false,
+                required: false
             },
             email: {
                 required: true,
                 email: true
-            },
+            }
         }
     });
-  });
+});
