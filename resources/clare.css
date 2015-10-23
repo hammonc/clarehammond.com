@@ -252,6 +252,30 @@ em {
     margin: 0px;
 }
 
+.review {
+    margin-top: 20px;
+}
+
+.review-heading {
+}
+
+.review-trailer {
+    font-style: italic;
+}
+
+.review-trailer em {
+    font-style: normal;
+}
+
+.review-details {
+    font-size: 90%;
+    margin: 5px;
+}
+
+.review-details p {
+    margin: 0px;
+}
+
 #recordings {
     width: 520px;
     float: left;
