@@ -1,7 +1,7 @@
 /* clare.css */
 
 body {
-    font-family: Arial;
+    font-family: Muli, Arial;
     font-size: 13px;
     background-color: #ffffff;
     color: #666666;
@@ -32,7 +32,7 @@ a img {
 }
 
 #logo {
-    font-family: "Gill Sans", Arial;
+    font-family: "Julius Sans One", "Gill Sans", Arial;
     padding: 14px;
 }
 
@@ -63,7 +63,7 @@ a img {
 }
 
 #sidebar {
-    font-family: "Gill Sans", Arial;
+    font-family: "Julius Sans One", "Gill Sans", Arial;
     font-weight: lighter;
     font-size: 120%;
     float: left;
@@ -189,13 +189,13 @@ ul {
 }
 
 h3 {
-    font-family: "Gill Sans", Arial;
+    font-family: "Julius Sans One", "Gill Sans", Arial;
     font-weight: lighter;
     font-size: 180%;
 }
 
 h4 {
-    font-family: "Gill Sans", Arial;
+    font-family: "Julius Sans One", "Gill Sans", Arial;
     font-weight: lighter;
     font-size: 110%;
 }
@@ -407,13 +407,13 @@ td {
 }
 
 #repertoire h2 {
-    font-family: "Gill Sans", Arial;
+    font-family: "Julius Sans One", "Gill Sans", Arial;
     font-weight: lighter;
     font-size: 180%;
 }
 
 #repertoire h4 {
-    font-family: "Gill Sans", Arial;
+    font-family: "Julius Sans One", "Gill Sans", Arial;
     font-weight: lighter;
     margin-bottom: 4px;
 }
