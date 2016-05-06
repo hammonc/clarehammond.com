@@ -515,3 +515,9 @@ td {
 .archive-detail {
     font-size: 90%;
 }
+
+#mc_embed_signup {
+    background:#fff;
+    clear:left;
+    font:14px;
+}
